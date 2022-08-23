@@ -1,0 +1,26 @@
+Step1: Start Algorithm
+Step2: Declare variables x1,x2,y1,y2,dx,dy,m,b,
+Step3: Enter values of x1,x2,y1,y2.
+              The (x1,y1) are co-ordinates of a starting point of the line.
+              The (x2,y2) are co-ordinates of a ending point of the line.
+Step4: Calculate dx = x2- x1
+Step5: Calculate dy = y2-y1
+Step6: Calculate m = dy/dx
+Step7: Calculate b = y1-m* x1
+Step8: Set (x, y) equal to starting point, i.e., lowest point and xendequal to largest value of x.
+
+ 
+
+              If dx < 0
+                  then x = x2
+              y = y2
+                        xend= x1
+        If dx > 0
+              then x = x1
+                  y = y1
+                        xend= x2
+Step9: Check whether the complete line has been drawn if x=xend, stop
+Step10: Plot a point at current (x, y) coordinates
+Step11: Increment value of x, i.e., x = x+1
+Step12: Compute next value of y from equation y = mx + b
+Step13: Go to Step9.
